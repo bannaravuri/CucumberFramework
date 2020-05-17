@@ -15,7 +15,6 @@ private WebDriver driver;
 	
 	public AppiumScenario() {
 		this.driver = Hook.getDriver();
-		
 	}
 	
 	@Given("^I open the application$")
